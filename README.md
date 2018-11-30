@@ -9,13 +9,15 @@ include in your App level Gradle
 
 
 call below code in your LoginActivity
-` LoginButton loginButton=findViewById(R.id.fbLogin_Buttin_ID);
+'
+LoginButton loginButton=findViewById(R.id.fbLogin_Buttin_ID);
         new FacebookFIrebaseLogin(mActivity, loginButton, new ResponceClass() {
             @Override
             public void updateUI(FirebaseUser user) {
                 
             }
-        }); `
+        });
+	'
 
 
 # Firebase Login Demo for Android
