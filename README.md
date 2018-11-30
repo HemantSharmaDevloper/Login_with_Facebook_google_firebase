@@ -17,7 +17,7 @@ LoginButton loginButton=findViewById(R.id.fbLogin_Buttin_ID);
 ```
 
 
-Make sure you have ###### google-services
+Make sure you have # google-services # 
 
 # Firebase Login Demo for Android
 
