@@ -39,4 +39,3 @@ email & password, and anonymous.
    [enabling providers section](https://www.firebase.com/docs/android/guide/user-auth.html#section-enable-providers)
    of the Firebase user authentication docs for more details.
 0. Populate all of the values in [`res/values/keys.xml`](/app/src/main/res/values/keys.xml).
-# Login_with_Facebook_google_firebase
