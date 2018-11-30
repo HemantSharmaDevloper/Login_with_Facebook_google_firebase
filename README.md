@@ -3,20 +3,19 @@ This repository has module to implement Firebase Social Login.
 import Module by clicking on `File-> New -> Import Module`
 
 include in your App level Gradle
-[`
-    implementation 'com.facebook.android:facebook-android-sdk:[4,5)'
+`implementation 'com.facebook.android:facebook-android-sdk:[4,5)'
     implementation 'com.google.firebase:firebase-auth:16.0.5'
-    implementation project(path: ':loginwithgoogle_facebook_from_firebase')`]
+    implementation project(path: ':loginwithgoogle_facebook_from_firebase')`
 
 
 call below code in your LoginActivity
-[`LoginButton loginButton=findViewById(R.id.fbLogin_Buttin_ID);
+` LoginButton loginButton=findViewById(R.id.fbLogin_Buttin_ID);
         new FacebookFIrebaseLogin(mActivity, loginButton, new ResponceClass() {
             @Override
             public void updateUI(FirebaseUser user) {
                 
             }
-        });`]
+        }); `
 
 
 # Firebase Login Demo for Android
